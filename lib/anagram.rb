@@ -9,6 +9,6 @@ class Anagram
     array.each do |word|
       match_array << word if word.split("").sort == @word.split("").sort
     end
-    
+
   end
 end
